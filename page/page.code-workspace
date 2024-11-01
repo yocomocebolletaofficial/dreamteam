@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../landing.py/imghtml"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "page"
+	}
+}
