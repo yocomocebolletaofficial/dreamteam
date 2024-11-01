@@ -1,0 +1,69 @@
+/* navbar */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: bold;
+}
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+a {
+   color: #000000;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+a:hover {
+    color: rgb(197, 35, 35);
+}
+
+ul i {
+    color: #000000;
+}
+ul i :hover {
+    color: rgb(197, 35, 35);
+}
+/* carrousel */
+.carousel-item {  
+    height: 400px; /* Altura fija para el contenedor */  
+}  
+.carousel-item img {  
+    width: 100%; /* Asegura que la imagen ocupe el ancho completo del contenedor */  
+    height: 100%; /* Asegura que la imagen ocupe la altura completa del contenedor */  
+    object-fit: contain; /* Mantiene la relación de aspecto sin recortar */  
+}  
+
+.carousel-caption {  
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco semi-transparente para contraste */  
+    padding: 20px; /* Espaciado interno */  
+    border-radius: 10px; /* Bordes redondeados */  
+    color: #000000; /* Color del texto negro */  
+}  
+
+/* cards container */
+.container {
+   padding-top: 30px;
+  
+}
+.text h2 {
+    text-align: center;
+    font-size: 55px;
+    line-height: 70px;
+    color:rgb(197, 35, 35);
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+/* footer */
+.icons {
+    color: black;
+    font-size: 30px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.icons i:hover {
+    color: rgb(197, 35, 35);
+    }
